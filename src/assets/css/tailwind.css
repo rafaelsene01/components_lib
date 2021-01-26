@@ -6,10 +6,10 @@
 html,
 body,
 #app {
-  width: 100%;
-  height: 100%;
+  @apply text-paragraphy-2 font-regular w-full h-full;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  font-size: 16px;
 }
 
 h1,
@@ -22,82 +22,33 @@ h6 {
 }
 
 h1 {
-  font-size: 32px;
+  @apply text-4xl;
 }
 
 h2 {
-  font-size: 28px;
+  @apply text-3xl;
 }
 
 h3 {
-  font-size: 24px;
+  @apply text-2xl;
 }
 
 h4 {
-  font-size: 20px;
+  @apply text-xl;
 }
 
 h5 {
-  font-size: 18px;
+  @apply text-lg;
 }
 
-.body-1,
-.body-2,
-.body-3,
-.body-4 {
-  @apply font-regular text-paragraphy-2;
+h6 {
+  @apply text-base;
 }
 
-.body-1 {
-  font-size: 18px !important;
-}
-
-.body-2 {
-  font-size: 16px !important;
-}
-
-.body-3 {
-  font-size: 14px !important;
-}
-
-.body-4 {
-  font-size: 12px !important;
-}
-
-@media (max-width: 1280px) {
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 20px;
-  }
-
-  h4 {
+@media (min-width: 1281px) {
+  html,
+  body,
+  #app {
     font-size: 18px;
-  }
-
-  h5 {
-    font-size: 16px;
-  }
-
-  .body-1 {
-    font-size: 16px !important;
-  }
-
-  .body-2 {
-    font-size: 14px !important;
-  }
-
-  .body-3 {
-    font-size: 12px !important;
-  }
-
-  .body-4 {
-    font-size: 10px !important;
   }
 }

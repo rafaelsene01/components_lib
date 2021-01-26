@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "RobotoLight";
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("./fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "RobotoRegular";
   src: local("Roboto Regular"), local("Roboto-Regular"),
     url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
@@ -27,6 +35,14 @@
   src: local("Roboto Black"), local("Roboto-Black"),
     url("./fonts/Roboto/Roboto-Black.ttf") format("truetype");
   font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansProLight";
+  src: local("Source Sans Pro Light"), local("Source-Sans-Pro-Light"),
+    url("./fonts/SourceSansPro/SourceSansPro-Light.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
 }
 
