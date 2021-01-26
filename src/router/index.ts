@@ -2,12 +2,12 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import { defineAsyncComponent } from "vue";
 
 const home = defineAsyncComponent({
-  loader: () => import(/* webpackChunkName: "Home" */ "../views/Home.vue")
+  loader: () => import(/* webpackChunkName: "Home" */ "@/views/Home.vue")
 });
 const FormInputsControls = defineAsyncComponent({
   loader: () =>
     import(
-      /* webpackChunkName: "FormInputsControls" */ "../views/FormInputsControls.vue"
+      /* webpackChunkName: "FormInputsControls" */ "@/views/FormInputsControls/index.vue"
     )
 });
 
