@@ -24,7 +24,8 @@ module.exports = {
         tabWidth: 2,
         useTabs: false
       }
-    ]
+    ],
+    "@typescript-eslint/no-var-requires": "off"
   },
   overrides: [
     {
